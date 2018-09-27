@@ -1,0 +1,452 @@
+
+@media (min-width:1px) and (max-width:899px){
+  header{
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-bottom: 0%;
+    padding-top: 0%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    width: 78%;
+    background: #5b7989;
+    font-size: 2.2em;
+    border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+  }
+
+  @-webkit-keyframes animacion{
+    0%{
+      margin-top: 150%;
+    }
+    60%{
+      margin-top: -5%;
+    }
+    100%{
+      margin-top: 0%;
+    }
+  }
+  .contenido{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .encabezado{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .titulo{
+    width: 100%;
+    animation: animacion 2s;
+    order: 1;
+  }
+  .barra{
+    width: 100%;
+    animation: animacion 2s;
+    order: 2;
+  }
+  #seleccion{
+    text-decoration: none;
+  }
+  #fotoprincipal{
+    width: 100%;
+  }
+  #foto{
+    color: white;
+    text-shadow: 1px 2px #02010a;
+  }
+  #imagenprincipal{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 80%;
+    margin-left: 10%;
+    background-color: #82c3a6;
+  }
+  a:link, a:visited{
+    color: white;
+  }
+  .contenedor{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+    background-color: #d5c75f;
+  }
+  img{
+    box-shadow: 2px 2px #02010a;
+  }
+  .imagensecundaria1{
+    width: 100%;
+    padding: 0%;
+    border: 0%;
+  }
+  .imagen1:hover{
+    transform: rotate(10deg);
+    border: 2px solid #82c3a6;
+  }
+  .imagensecundaria2{
+    width: 100%;
+    padding: 0%;
+    border: 0%;
+  }
+  .imagen2:hover{
+    transform: translate(20px, -5px);
+    border: 2px solid #82c3a6;
+  }
+
+  body{
+    background: #02010a;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  figcaption{
+    font-size: 2em;
+    text-decoration: underline;
+    text-align: center;
+  }
+  .pie{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    width: 80%;
+    background-color: #c6d5c5;
+    border-radius: 0px 0px 10px 10px;
+    font-size: 1.6em;
+  }
+  .contacto{
+    margin-top: 8%;
+    margin-left: 15%;
+    width: 80%;
+    order: 1;
+    margin-bottom: 8%;
+  }
+  .redes{
+    margin-left: 15%;
+    width: 80%;
+    order: 2;
+    margin-bottom: 8%;
+  }
+  .termino{
+    margin-left: 15%;
+    width: 80%;
+    order: 3;
+    margin-bottom: 8%;
+  }
+  .derechos{
+    margin-left: 15%;
+    width: 80%;
+    order: 4;
+  }
+}
+.contenedorretrato{
+  margin-top: 0%;
+  margin-bottom: 0%;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 10%;
+  background-color: #d5c75f;
+}
+.retrato1 {
+  display:  inline-grid;
+  width: 80%;
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+}
+.retrato2 {
+  display:  inline-grid;
+  width: 80%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.retrato3 {
+  display:  inline-grid;
+  width: 80%;
+  -webkit-filter: sepia(90%);
+  filter: sepia(90%);
+}
+.retrato4 {
+  display:  inline-grid;
+  width: 80%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.retrato5 {
+  display:  inline-grid;
+  width: 80%;
+}
+.retrato6 {
+  display:  inline-grid;
+  width: 80%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.contenedorpaisajes{
+  margin-top: 0%;
+  margin-bottom: 0%;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 10%;
+  background-color: #d5c75f;
+}
+.paisaje1 {
+  display:  inline-grid;
+  width: 80%;
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+}
+.paisaje2 {
+  display:  inline-grid;
+  width: 80%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.paisaje3 {
+  display:  inline-grid;
+  width: 80%;
+  -webkit-filter: sepia(90%);
+  filter: sepia(90%);
+}
+.paisaje4 {
+  display:  inline-grid;
+  width: 80%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.paisaje5 {
+  display:  inline-grid;
+  width: 80%;
+}
+.paisaje6 {
+  display:  inline-grid;
+  width: 80%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+@media (min-width:900px){
+  header{
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-bottom: 0%;
+    padding-top: 0%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    width: 78%;
+    background: #5b7989;
+    font-size: 2.2em;
+    border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+  }
+
+  @-webkit-keyframes animacion{
+    0%{
+      margin-top: 150%;
+    }
+    60%{
+      margin-top: -5%;
+    }
+    100%{
+      margin-top: 0%;
+    }
+  }
+  .contenido{
+    align-items: center;
+    max-width: 900px;
+  }
+  .encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .titulo{
+    width: 55%;
+    animation: animacion 2s;
+    justify-content: center;
+    align-items: center;
+  }
+  .barra{
+    width: 45%;
+    animation: animacion 2s;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #fotoprincipal{
+    width: 90%;
+  }
+  #seleccion{
+    text-decoration: none;
+  }
+  #foto{
+    color: white;
+    text-shadow: 1px 2px #02010a;
+  }
+  #imagenprincipal{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 80%;
+    margin-left: 10%;
+    background-color: #82c3a6;
+  }
+  a:link, a:visited{
+    color: white;
+  }
+  .contenedor{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: 10%;
+    background-color: #d5c75f;
+  }
+  img{
+    box-shadow: 2px 2px #02010a;
+  }
+  .imagensecundaria1{
+    width: 50%;
+    padding: 0%;
+    border: 0%;
+  }
+  .imagen1:hover{
+    transform: rotate(10deg);
+    border: 2px solid #82c3a6;
+  }
+  .imagensecundaria2{
+    width: 50%;
+    padding: 0%;
+    border: 0%;
+  }
+  .imagen2:hover{
+    transform: translate(20px, -5px);
+    border: 2px solid #82c3a6;
+  }
+  body{
+    background: #02010a;
+    font-family: 'Dancing Script', cursive;
+  }
+  figcaption{
+    font-size: 2em;
+    text-decoration: underline;
+    text-align: center;
+  }
+  .pie{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    width: 80%;
+    background-color: #c6d5c5;
+    border-radius: 0px 0px 10px 10px;
+    font-size: 1.2em;
+  }
+  .contacto{
+    width: 25%;
+  }
+  .redes{
+    width: 25%;
+  }
+  .termino{
+    width: 25%;
+  }
+  .derechos{
+    width: 25%;
+  }
+  .contenedorretrato{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 10%;
+    background-color: #d5c75f;
+  }
+  .retrato1{
+    display:  inline-grid;
+    width: 31%;
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+  }
+  .retrato2{
+    display:  inline-grid;
+    width: 31%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+  .retrato3{
+    display:  inline-grid;
+    width: 31%;
+    -webkit-filter: sepia(90%);
+    filter: sepia(90%);
+  }
+  .retrato4{
+    display:  inline-grid;
+    width: 31%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+  .retrato5{
+    display:  inline-grid;
+    width: 31%;
+  }
+  .retrato6{
+    display:  inline-grid;
+    width: 31%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+  .contenedorpaisajes{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 10%;
+    background-color: #d5c75f;
+  }
+  .paisaje1{
+    display:  inline-grid;
+    width: 31%;
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+  }
+  .paisaje2{
+    display:  inline-grid;
+    width: 31%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+  .paisaje3{
+    display:  inline-grid;
+    width: 31%;
+    -webkit-filter: sepia(90%);
+    filter: sepia(90%);
+  }
+  .paisaje4{
+    display:  inline-grid;
+    width: 31%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+  .paisaje5{
+    display:  inline-grid;
+    width: 31%;
+  }
+  .paisaje6{
+    display:  inline-grid;
+    width: 31%;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+}
